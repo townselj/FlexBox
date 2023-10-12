@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What is flexbox?</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/css.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </head>
+  <body>
+    <main style="text-align: center">
+      <h1>What is a flexbox?</h1>
+      <p>
+        The Flexbox Layout (Flexible Box) module (a W3C Candidate Recommendation
+        as of October 2017) aims at providing a more efficient way to lay out,
+        align and distribute space among items in a container, even when their
+        size is unknown and/or dynamic (thus the word “flex”).
+      </p>
+      <h3>How do I apply it?</h3>
+      <p>Flex can significally improve a website's layout. For example:</p>
+      <p>If you apply this design, you get:</p>
+      <p>Hello World</p>
+      <p>Life is suffering</p>
+      <p>
+        With flexbox, elements are allowed to move around more. With some basic
+        code changes:
+      </p>
+      <pre>
+        <code class="language-css">
+        div {display: flex; justify-content: center;}
+      </code>
+    </pre>
+      <div style="display: flex; justify-content: center">
+        <p>Hello World</p>
+        <p>Life is suffering</p>
+      </div>
+      <p>Our code stays on one line</p>
+      <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"> To find out more, check out this link.</a>
+    </main>
+  </body>
+</html>

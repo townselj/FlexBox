@@ -1,0 +1,4 @@
+html:not(code) {
+  background-color: #343434;
+  color: white;
+}

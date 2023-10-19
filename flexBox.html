@@ -29,14 +29,35 @@
       <div class="box red"></div>
       <div class="box green"></div>
       <div class="box blue"></div>
-
-      <div style="display: flex; justify-content: space-evenly;">
+      <p>
+        Here's a few example divs. Te vertical alignment looks ugly as of now.
+        However, with flexbox, we can change that.
+      </p>
+      <pre>
+        <code class="language-css">
+          div { display: flex; justify-content: center;}
+        </code>
+      </pre>
+      <div style="display: flex; justify-content: center">
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+      </div>
+      <p>
+        By definiting the divs as a flexbox, we are able to to move our divs to
+        a horizontal line. The order still looks off, so we can change that with
+        flexbox.
+      </p>
+      <pre>
+        <code class="language-css">div { display: flex; justify-content: space-evenly; flex-wrap: wrap;}</code>
+      </pre>
+      <div style="display: flex; justify-content: center">
         <div class="box red"></div>
         <div class="box green"></div>
         <div class="box blue"></div>
       </div>
       <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
-        To find out more, check out this link.</a
+        To find out more about flexbox, check out this link.</a
       >
     </main>
   </body>

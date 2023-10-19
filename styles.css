@@ -2,3 +2,21 @@ html:not(code) {
   background-color: #343434;
   color: white;
 }
+
+.box {
+  height: 100px;
+  width: 100px;
+  padding-bottom: 20%;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}

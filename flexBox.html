@@ -17,12 +17,10 @@
   </head>
   <body>
     <main style="text-align: center">
-      <h1>What is a flexbox?</h1>
+      <h3>What is a flexbox?</h3>
       <p>
-        The Flexbox Layout (Flexible Box) module (a W3C Candidate Recommendation
-        as of October 2017) aims at providing a more efficient way to lay out,
-        align and distribute space among items in a container, even when their
-        size is unknown and/or dynamic (thus the word “flex”).
+        Flexbox is a property for the display option in css. It can be used in
+        order to make websites more responsive and flexible (pun intended)
       </p>
       <h3>How do I apply it?</h3>
       <p>Flex can significally improve a website's layout. For example:</p>
@@ -30,7 +28,7 @@
       <div class="box green"></div>
       <div class="box blue"></div>
       <p>
-        Here's a few example divs. Te vertical alignment looks ugly as of now.
+        Here's a few example divs. The vertical alignment looks ugly as of now.
         However, with flexbox, we can change that.
       </p>
       <pre>
@@ -49,13 +47,20 @@
         flexbox.
       </p>
       <pre>
-        <code class="language-css">div { display: flex; justify-content: space-evenly; flex-wrap: wrap;}</code>
+        <code class="language-css">div {display: flex; justify-content: space-evenly; flex-direction: row-reverse;}</code>
       </pre>
-      <div style="display: flex; justify-content: center">
+      <div
+        style="
+          display: flex;
+          justify-content: space-evenly;
+          flex-direction: row-reverse;
+        "
+      >
         <div class="box red"></div>
         <div class="box green"></div>
         <div class="box blue"></div>
       </div>
+      <p>Using our code, we can change the direction of our divs and even their spacing.</p>
       <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
         To find out more about flexbox, check out this link.</a
       >
